@@ -1,0 +1,85 @@
+*{
+	margin: auto;
+	padding: 0;
+	
+}
+body{
+	background-color: #eee;
+	height: 100%;
+	width: 100%;
+}
+.main{
+	-webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+	background-repeat: no-repeat;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	background-position: center;
+	background-image: url('http://static.comicvine.com/uploads/original/11117/111171244/4360451-girls_models_models_a_angelina_jolie_smoke_cigarettes_012434_.jpeg');
+	display: block;
+	max-width: 960px;
+	min-height: auto;
+	/**border: 1px solid red;**/
+}
+form{
+	position: relative;
+	border: 1px solid;
+	width: 500px;
+	height: 600px;
+}
+fieldset{
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	height: 455px;
+	width: 200;
+	display: block;
+	text-align: center;
+}
+input[type='text']{
+	margin: 20px;
+	width: 100px;
+	height: 30px;
+}
+
+input[type='button']{
+	margin: 20px 0;
+	height: 30px;
+	width: 80px;
+}
+input[type='button'] ::hover{
+	color: #fff;
+	background-color: #000;
+}
+h1{
+	display: inline-block;
+	font-size: 50px;
+	font-weight: bold;
+	color: #FFF;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 3px black, 0 0 1em #fff;
+	text-align: center;
+}
+label{
+	display: block;
+	font-size: 20px;
+	text-transform: uppercase;
+	color: #FFF;
+	text-shadow: 1px 1px 3px black, 0 0 1em #fff;
+}
+
+option{
+	width: 50px;
+	height: 20px;
+}
+footer{
+	display: block;
+	background-color: #000;
+	color: #FFF;
+	font-family: Arial;
+	font-size: 10px;
+	font-weight: 200;
+	font-style: italic;
+}
+
