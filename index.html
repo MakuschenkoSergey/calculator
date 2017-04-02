@@ -13,15 +13,15 @@
 			<fieldset>
 				<label>sigarets mark</label><br />
 					<select name="mark" id="mark">
-						<option value="BOND">BOND</option>
-						<option value="WINSTO">WINSTO</option>
-						<option value="LM">LM</option>
-						<option value="CAMEL">CAMEL</option>
-						<option value="MALBORO">MALBORO</option>
-						<option value="PARLAMENT">PARLAMENT</option>
+						<option value="bond">BOND</option>
+						<option value="winston">WINSTO</option>
+						<option value="lm">LM</option>
+						<option value="camel">CAMEL</option>
+						<option value="marlboro">MALBORO</option>
+						<option value="parlament">PARLAMENT</option>
 					</select>
-				<label>quantity sigarets per day</label><input type="text"><br />
-				<label>price</label><input type="text"><br />
+				<label>quantity sigarets per day</label><input id="quantity" type="text"><br />
+				<!--<label>price</label><input id="price" type="text"><br />-->
 				<label>period</label>
 					<select name="period" id="period">
 						<option value="week">week</option>
@@ -29,16 +29,17 @@
 						<option value="season">season</option>
 						<option value="year">year</option>
 					</select>
-				<input type="button" value="calculate" onclick="calculate()">
-				<label>result</label><input type="text"><br />
+				<input type="button" id="btn" value="calculate" >
+				<label>result</label><input id="result" type="text"><br />
 			</fieldset>
 		</form>
 		<footer>
 			<adress>Copyright 2017. All rights reserved. Made with love and smoking. Team - "madSSSM"</adress>
 		</footer>
 	</div>
-	<script src="main.js"></script>
 	<script src="libs/jquery/dist/jquery.js"></script>
+	<script src="libs/custom/main.js"></script>
+	
 </body>
 
 </html>	
